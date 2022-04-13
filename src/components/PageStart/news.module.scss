@@ -1,0 +1,135 @@
+.contentImg {
+    position: absolute;
+    height: 490px;
+    width: 100%;
+    top: 124px;
+    left: 0px;
+    bottom: 0px;
+    background: url('../../assets/home.png') no-repeat center top;
+    background-size: 1280px;
+}
+
+.container {
+    height: 496px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+.content {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 490px;
+    width: 1280px;
+    background-color: transparent;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.msg {    
+    position: relative;
+    top: 142px;
+    left: 139px;
+    height: 10px;
+    width: 387px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.button {
+    position: relative;
+    top: 253px;
+    left: 140px;
+    height: 48px;
+    width: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBB900;
+    border-radius: 10px;
+    border: 1px solid #F0D075;
+    cursor: pointer;
+}
+
+
+.confira {
+    color: #fff;
+    background-color: #FBB900;
+}
+
+.confira:hover {
+    text-decoration: underline;
+}
+
+.left {
+    position: relative;
+    top: 200px;
+    left: 66px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.right {
+    position: relative;
+    top: 108px;
+    left: 1172px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.down {
+    position: relative;
+    top: 219px;
+    left: 626px;
+    z-index: 1;
+    background-color: #4D4D4D;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
+    border-radius: 100px;
+}
+
+.rd1 {
+    position: relative;
+    top: 300px;
+    left: 544px;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.rd2 {
+    position: relative;
+    top: 302px;
+    left: 554px;
+
+    z-index: 2;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.rd3 {
+    position: relative;
+    top: 302px;
+    left: 563px;
+    z-index: 2;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}

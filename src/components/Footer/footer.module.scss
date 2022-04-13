@@ -1,0 +1,141 @@
+.container {
+    height: 537px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    height: 537px;
+    width: 1280px;
+    display: grid;
+    grid-template-columns: 35% 20% 20% 25%;
+    grid-template-areas:
+        "sectionone sectiontwo sectionthree sectionfour"
+        "sectionone sectiontwo sectionthree sectionfour"
+        "sectionone sectionfive sectionfive sectionsix"
+        "sectionone sectionseven sectionseven sectioneight"
+    ;
+    background: #FBB900;
+    overflow: hidden;
+}
+
+.sectionone {
+    grid-area: sectionone;
+    border-right: 1px solid #fff;
+    text-align: center;
+    margin: 48px 85px 32px 85px;
+}
+
+.sectiontwo {
+    grid-area: sectiontwo;
+    padding-left: 2rem;
+    padding-top: 56px;
+}
+
+.sectionthree {
+    grid-area: sectionthree;
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+}
+
+.sectionfour {
+    grid-area: sectionfour;
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+}
+
+.sectionfive {
+    grid-area: sectionfive;
+    border-bottom: 1px solid #fff;
+    margin: 56px ;
+
+    .payment {
+        width: 215px;
+        display: grid;
+        gap: 8px;
+        grid-template-columns: 1fr 1fr 1fr;
+        cursor: pointer;
+
+        .imagens {
+            width: 68px;
+            height: 38px;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+        }
+    }
+}
+
+.sectionsix {
+    grid-area: sectionsix;
+    border-bottom: 1px solid #fff;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.sectionseven {
+
+    grid-area: sectionseven;
+    border-bottom: 1px solid #fff;
+    font-size: 0.75px;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.sectioneight {
+    grid-area: sectioneight;
+    border-bottom: 1px solid #fff;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    img {
+        padding: 10px;
+    }
+}
+
+.sectionone,
+.sectiontwo,
+.sectionthree,
+.sectionfour,
+.sectionfive,
+.sectionsix,
+.sectionseven,
+.sectioneight {
+    font-size: 0.875rem;
+    text-align: left;
+
+    div {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+        gap: 2rem;
+    }
+}
+
+a {
+    display: block;
+    padding: 7px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+
+h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,111 @@
+.container {
+    height: 73px;
+    width: 100%;
+    border-top: 1px solid #F0F0F0;
+    background: var(--white-fff);
+    border-bottom: 1px solid #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    height: 71px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    height: 46px;
+    width: 178px;
+    margin: 0px 56px 0px 56px;
+    cursor: pointer;
+}
+
+form {
+    height: 48px;
+    width: 657px;
+    border: 1px solid #FEF6E7;
+    border-radius: 10px;
+    background: #FEF6E7;
+    margin: 12px 61px 12px 0px;
+}
+
+form > input {
+    height: 21px;
+    width: 520px;
+    line-height: 21px;
+    font-size: 14px;
+    background: #FEF6E7;
+    border: none;
+    margin: 14px 0px 13px 24px; 
+}
+
+form > button {
+    background: #fdf7ed;
+    border: none;
+    float: right;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.search {
+    height: 28px;
+    width: 28px;
+    background: #FEF6E7;
+    color: #9F9F9F;
+    margin: 10px 16px 0px 0px;
+    border-radius: 30px;
+}
+
+.box {
+    display: flex;
+    background-color: #fff;
+    margin: 14.62px 0px 37.75px 0px;
+    svg {
+        height: 19.63px;
+        width: 24px;
+        color: #9F9F9F;
+        cursor: pointer;
+    }
+}
+
+.heart {
+    display: flex;
+    margin:  0px 36px 0px 32px;
+    svg {
+        height: 32px;
+        width: 32px;
+        color: #9F9F9F;
+        cursor: pointer;
+    }
+}
+
+.profile {
+    display: flex;
+    margin-right: 36px;
+    svg {
+        height: 32px;
+        width: 32px;
+        color: #9F9F9F;
+        cursor: pointer;
+    }
+}
+
+.shopping {
+    display: flex;
+    margin-right: 56px;
+    svg {
+        height: 32px;
+        width: 32px;
+        color: #9F9F9F;
+        cursor: pointer;
+    }
+}
+
+
