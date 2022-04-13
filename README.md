@@ -1,5 +1,11 @@
 # Landing Page Feita conforme layout do figma.
 
+## Link com o Projeto no gitHub: https://github.com/GustavoMartinsDev/Econverse-LandingPage-Teste.git
+
+
+
+
+
 Link do projeto no Figma: https://www.figma.com/file/r4isGFrnYCxtHPguCARnGT/Teste-para-Desenvolvedores-(Copy)
 
 Realizei o layout com base totalmente no figma 1280x4809px, assim não ocupando a tela inteira.
